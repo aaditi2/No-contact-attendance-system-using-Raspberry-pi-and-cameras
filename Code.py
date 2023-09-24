@@ -19,7 +19,7 @@ print("Encoding the dataset")
 encode_lst=[]
 attendance_lst=[]
 #path of the stored images(dataset folder)
-pathOut = r"/home/pi/No_contact_attendance/dataset_images"
+pathOut = r"path/to/your/folder/of/images"
 dir_list= os.listdir(pathOut)
 #traversing through each of the image
 for f in dir_list:
@@ -43,7 +43,7 @@ for click in range(2):
 
     print("Face recognition process is going on")
     #path of the captured image by the camera
-    student= face_recognition.load_image_file(r"/home/pi/No_contact_attendance/sample_photo/image.jpg") #image gets loaded
+    student= face_recognition.load_image_file(r"/path/image.jpg") #image gets loaded
     #convert the colour image to RGB
     student= cv2.cvtColor(student, cv2.COLOR_BGR2RGB)
     
@@ -88,9 +88,9 @@ if ans=="y":
     #sending an email
     subject = "Attendance" + datetime.datetime.now().strftime
     body = "PFA csv file of today's attendance"
-    sender_email = "aditi.more@cumminscollege.in"
-    receiver_email = "maithili.karlekar@cumminscollege.in"
-    password = input("Type your password and press enter:")
+    sender_email = "sender@gmail.com"
+    receiver_email = "receiver@gmail.com"
+    password = input("Type your password and press enter:") //the sender has to set up a password on his/her gmail acc. 
 
     # Create a multipart message and set headers
     message = MIMEMultipart()
