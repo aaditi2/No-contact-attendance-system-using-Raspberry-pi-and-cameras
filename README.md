@@ -3,10 +3,9 @@ Innovative system designed by using Raspberry Pi &amp; python to recognize and d
 
 Setting up Raspberry Pi before execution of the code
 1. Download the OS in the SD card using Raspberry Pi Imager using laptop/PC.
-How To Install & Set Up Raspberry Pi OS - Pi4 Pi3 Pi2
-2. After installing the OS, insert the SD card in the slot. Connect charger cable, mouse and keypad to their respective slots.
-3. Connect the HDMI cable to the screen and then power on the
-Raspberry Pi.
+   How To Install & Set Up Raspberry Pi OS - Pi4 Pi3 Pi2
+2. After installing the OS, insert the SD card in the slot. Connect charger cable, mouse and keypad to their respective slots
+3. Connect the HDMI cable to the screen and then power on the Raspberry Pi.
 4. Referring to the video, the desktop of Raspberry Pi OS will get displayed.
 5. At the right corner of the desktop symbol of WiFi is there. Click on that and connect the Raspberry Pi to the WiFi.
 6. Open the command prompt and download the required dependencies.
